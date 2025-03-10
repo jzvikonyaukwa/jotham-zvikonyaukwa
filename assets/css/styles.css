@@ -827,3 +827,23 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+/* Technology badges */
+.tech-stack .badge {
+  font-size: 0.85rem;
+  padding: 0.5em 0.75em;
+  border-radius: 20px;
+}
+
+/* Feature checkmarks */
+.list-unstyled li::before {
+  content: "✓";
+  color: var(--theme-color);
+  margin-right: 0.5rem;
+}
+
+/* Image captions */
+.figure-caption {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
